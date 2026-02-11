@@ -1,0 +1,52 @@
+body{
+   background-image:url("https://img.freepik.com/premium-photo/black-educational-background-with-white-handdrawn-illustrations-black-educational-background_483187-2407.jpg?semt=ais_hybrid&w=740&q=80");
+   background-repeat:no-repeat;
+   background-size:cover;
+}
+div{
+    height:300px;
+    width:400px;
+    border-radius:20px;
+    border:2px solid rgb(68, 67, 67);
+    box-shadow:0 0 5px 8px rgb(141, 128, 128);
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3MACtu6hNTRHg8BZuEQDrmBTzXr0u5I9HBA&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:200px auto;   
+    text-align:center;
+    color:aliceblue;
+} 
+h1{
+    padding-top:20px;
+} 
+input{
+    /* padding:10px; */
+    height:35px;
+    width:100px;
+}
+button{
+    /* padding:6px; */
+    height:40px;
+    margin-left:20px;
+    background-color: rgb(201, 107, 31);
+    color: aliceblue;
+    width:100px;
+    font-size:21px;
+    border:transparent;
+    border-radius:15px;
+}
+button:hover{
+    background-color:rgb(184, 80, 20);
+}
+h3{
+    padding-top:10px;
+    font-size:21px;
+}
+/* 1100px keela */
+@media (max-width:1100px){
+    div{
+        width:90%;
+        max-width:400px;
+        margin:120px auto;
+    }
+}
